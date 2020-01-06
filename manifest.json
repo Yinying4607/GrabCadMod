@@ -1,0 +1,17 @@
+{
+	"name": "Grab Cad Mod",
+	"version": "1.0",
+	"description": "Grab Cad Mod adds more features to grabcad shop",
+	"background": {
+		"scripts": ["scripts/background.js"], 
+		"persistent": false
+	},
+	"permissions": [
+		"webNavigation",
+		"background",
+		"tabs",
+		"http://*/",
+        "https://*/"
+	],
+	"manifest_version": 2
+}
